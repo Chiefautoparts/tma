@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Team Max Adam</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<script type="text/javascript" src="home.js"></script>
+</head>
+<body>
+	<h1>Welcome To The Greatest Expierence of Your Life</h1>
+	<h4>You have been granted access to the most classified group</h4>
+	<h4>Upon being granted access you must follow our set of rules.</h4>
+	<h4>We do not take violations of these rules lightly and justice will shift for those who violate our oath</h4>
+	<p>Click <a href="#">here</a> for the group rules.</p>
+	<p>Click <a href="#">here</a> to view the groups oath.</p>
+	<img src="https://i.imgflip.com/1hpcmw.jpg" alt="safe space image">
+	<p><a href="#">Link </a>to hurt feelings report.</p>
+	<button id="contact_admin" onclick="displayForm()">Click here to contact the admins</button>
+	<section id="adminForm" >
+		<form id="form" action="#" method="post">
+		<div>
+			<label for="name">Name: </label>
+			<input type="text" name="name" id="name" value="" tabindex="1" />
+		</div>
+	
+		<!-- <div>
+			<h4>Radio Button Choice</h4>
+	
+			<label for="radio-choice-1">Choice 1</label>
+			<input type="radio" name="radio-choice-1" id="radio-choice-1" tabindex="2" value="choice-1" />
+	
+			<label for="radio-choice-2">Choice 2</label>
+			<input type="radio" name="radio-choice-2" id="radio-choice-2" tabindex="3" value="choice-2" />
+		</div> -->
+	
+		<div>
+			<label for="select-choice">Message Subject: </label>
+			<select name="select-choice" id="select-choice">
+				<option value="Choice 1">Question</option>
+				<option value="Choice 2">Issue</option>
+				<option value="Choice 3">Membership</option>
+				<option value="Choice 4">Other</option>
+			</select>
+		</div>
+		
+		<div>
+			<label for="textarea">Message: </label>
+			<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+		</div>
+		
+		<!-- <div>
+			<label for="checkbox">Checkbox:</label>
+			<input type="checkbox" name="checkbox" id="checkbox" />
+		</div>
+	 -->
+		<div>
+			<input type="submit" value="Submit" />
+		</div>
+	</form>
+	</section>
+	
+</body>
+</html>
